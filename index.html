@@ -38,36 +38,22 @@
             <!-- <div id="header-left">HEADER-LEFT</div>
               <div id="header-right">HEADER-RIGHT</div> -->
             <div id="footer-left">
-              https://rockykev.github.io/slides-reveal-serverless/ - Spokane
-              Front-end Dev Feb 2020
+              Rocky Kev @Rockykev http://linkedin.com/in/rockykev
             </div>
           </div>
         </div>
 
         <section>
-          <h5>Getting Comfortable with Serverless</h5>
-          <p>
-            March 2020 Presentation
-          </p>
+          <h5>Marketing for Non-profits</h5>
           <img src="images/serverless-meme.jpg" style="width:50%" />
         </section>
 
         <section>
-          <h5>If you want to follow along....</h5>
-          <img src="images/get-to-aws.png" style="width:50%" />
-        </section>
-
-        <section>
-          <h5>If you want to follow along....</h5>
-          <img src="images/get-to-node.png" style="width:50%" />
-        </section>
-
-        <section>
-          <h2>Always looking for speakers/vteers</h2>
+          <h2>Ice Breaker:</h2>
           <p>
-            Put this on your tinder profile.
+            Maybe image of person walking through house - what do they look
+            like?
           </p>
-          <img src="images/want-you.jpg" style="width:50%" />
         </section>
 
         <section>
@@ -75,344 +61,40 @@
         </section>
 
         <section id="fragments">
-          <h2>tl;dr 🍕: What are we covering?</h2>
+          <h2>What we'll be covering</h2>
           <ul>
-            <li class="fragment">What is Serverless 🌩️</li>
-            <li class="fragment">Before serverless 😭</li>
-            <li class="fragment">AWS and Lambda λ</li>
-            <li class="fragment">
-              Web development (Github, Netlify, AWS and Heroku)
-            </li>
+            <li class="fragment">Goal Identification 🎯</li>
+            <li class="fragment">Decision Making 🤝</li>
+            <li class="fragment">Website & Branding 🌐</li>
+            <li class="fragment">Analytics and SEO 📈</li>
+            <li class="fragment">Social Media 🎤</li>
+            <li class="fragment">Text & Email Marketing 💬</li>
           </ul>
         </section>
 
-        <!-- WHAT IS SERVERLESS         -->
+        <!-- Goal Identification         -->
 
-        <section id="history">
-          <section>
-            <p>
-              Serverless computing is a cloud-computing execution model in which
-              the cloud provider runs the server, and dynamically manages the
-              allocation of machine resources. Pricing is based on the actual
-              amount of resources consumed by an application,
-              <strong>rather than on pre-purchased units of capacity.</strong>
-            </p>
-            <p class="small-text">
-              Shamelessly stolen from
-              https://en.wikipedia.org/wiki/Serverless_computing
-            </p>
-          </section>
+        <section id="history"></section>
 
-          <section>
-            <p>
-              tl:dr: Normally, you create a server (PHP, Nodejs, Ruby or Python)
-              which interact with a database to fetch information and send it to
-              the Frontend. Then you host this backend server on hosting
-              providers like GoDaddy, AWS or Azure that's running 24 x 7 (even
-              if nobody is using it).
-            </p>
-            <p>
-              You pay for idle time. You also patch bugs, update software, and
-              scale/manage.
-            </p>
-          </section>
+        <!-- Decision         -->
 
-          <section>
-            <p>
-              With serverless, you write code and upload it to a serverless
-              provider platform ( like AWS Lambda, for example). Your code runs
-              when an event triggers it. The provider creates the environment
-              for you when you need it and then tears it down when you don’t.
-              Therefore, serverless doesn’t really mean no servers; it simply
-              means that you don’t need to worry about them yourself.
-            </p>
-            <p class="small-text">
-              Shamelessly stolen from
-              https://stackify.com/aws-lambda-serverless/
-            </p>
-          </section>
+        <section id="decision"></section>
 
-          <section>
-            <img src="images/lambda-logo.png" />
-            <p>This isn't the half-life symbol.</p>
-          </section>
+        <!-- Website         -->
 
-          <section>
-            <img src="images/lambda-spin.png" style="width:50%" />
-            <p class="small-text">Actual representation of AWS Lambda.</p>
-          </section>
+        <section id="web"></section>
 
-          <section>
-            <p>
-              Serverless: Backend devs vs Frontend devs.
-            </p>
-          </section>
+        <!-- Analytics         -->
 
-          <section>
-            <h2>Backend devs...</h2>
-            <img src="images/backend-be-like.jpg" />
-            <p class="small-text">
-              Serverless for
-              <a
-                href="https://read.acloud.guru/serverless-is-a-state-of-mind-717ef2088b42"
-                >Backends read this pros/cons</a
-              >.
-            </p>
-          </section>
+        <section id="analytics"></section>
 
-          <section>
-            <h2>Frontend devs</h2>
-            <p>
-              who wants to focus on deploying apps/websites...
-              <img src="images/push-button.gif" />
-            </p>
-          </section>
+        <!-- Social         -->
 
-          <section>
-            <p>
-              “Focus on your application, not the infrastructure”.
-            </p>
-            <p class="small-text">
-              ~Faizan Bashir
-              (https://hackernoon.com/what-is-serverless-architecture-what-are-its-pros-and-cons-cc4b804022e9)
-            </p>
-          </section>
-        </section>
+        <section id="social"></section>
 
-        <!-- PLZ EXPLAIN         -->
-        <section>
-          <section>
-            <img src="images/cool-cool.gif" style="width: 50%;" />
-          </section>
+        <!-- Text         -->
 
-          <section>
-            <p>
-              What's "Lambda" and what are the usecases of serverless? (Explain
-              like I'm 5) 🤷‍♂️
-            </p>
-          </section>
-
-          <section>
-            <img src="images/lambda-logo.png" />
-            <p>Again, not the half-life symbol.</p>
-          </section>
-
-          <section>
-            <p>
-              <a
-                href="https://codepen.io/rockykev/pen/QWbppvV?editors=0100"
-                target="_blank"
-                >Example</a
-              >
-            </p>
-            <p>Via Syntax Podcast</p>
-          </section>
-
-          <section>
-            <p>Slack Bot</p>
-            <p>
-              <img src="images/lambda-slack-better.png" />
-            </p>
-          </section>
-
-          <section>
-            <p>Slack Bot Blueprint</p>
-            <p>
-              <img src="images/lambda-slack-blueprint.png" />
-            </p>
-          </section>
-
-          <section>
-            <p>
-              <img src="images/lambda-photo.png" />
-            </p>
-            <p class="small-text">
-              Resize Images
-              <a
-                href="https://aws.amazon.com/blogs/compute/resize-images-on-the-fly-with-amazon-s3-aws-lambda-and-amazon-api-gateway/"
-                >how-to</a
-              >
-            </p>
-          </section>
-
-          <section>
-            <p><img src="images/apps-word-to-pdf.png" /></p>
-          </section>
-
-          <section>
-            <p><img src="images/app-youtube.png" /></p>
-          </section>
-        </section>
-
-        <!-- BEFORE SERVERLESS         -->
-        <section>
-          <section>
-            <p>
-              But 🗿🔑 I build websites, not apis.
-            </p>
-            <p>
-              So tell me about serverless for front-end?
-            </p>
-          </section>
-
-          <section>
-            <img src="images/serverless.jpeg" style="width:50%" />
-            <p class="small-text">
-              Source:
-              https://www.gocd.org/2017/06/26/serverless-architecture-continuous-delivery/
-            </p>
-          </section>
-
-          <section>
-            <p>Hypothetical: Setting up a website 2000s-2020s style</p>
-          </section>
-
-          <section>
-            <p>2000's ish: Setting up your server with your computer</p>
-
-            <p>
-              <img src="images/windows-10-webservers.png" />
-            </p>
-          </section>
-
-          <section>
-            <p>
-              While your computer is a webserver, you try to 🎮 and performance
-              becomes 📉.
-            </p>
-          </section>
-
-          <section>
-            <p>2000's ish: MORE COMMITMENT.</p>
-            <p>
-              <img src="images/servers.jpg" />
-            </p>
-          </section>
-
-          <section>
-            <ul>
-              <li>Time: Who loves updating?</li>
-              <li>Hardware: Potential failures. Power outage.</li>
-              <li>Security: Not just viruses, but break-ins.</li>
-            </ul>
-          </section>
-
-          <section>
-            <p>Stage 3: Put it in the cloud!</p>
-            <p>
-              <img src="images/Web-Hosting-Services-1.jpg" />
-            </p>
-          </section>
-
-          <section>
-            <p>
-              <img src="images/cloud-services.png" />
-            </p>
-          </section>
-
-          <section>
-            <p>
-              <img src="images/this-is-frontend.png" />
-            </p>
-          </section>
-
-          <section>
-            <p>
-              <img src="images/im-just-frontend.png" style="width: 50%;" />
-            </p>
-          </section>
-
-          <section>
-            <h2>Github Pages</h2>
-            <p>
-              <a
-                href="https://github.com/RockyKev/slides-reveal-serverless/settings"
-                target="_blank"
-                >Do it live!</a
-              >
-            </p>
-          </section>
-
-          <section>
-            <img src="images/push-button.gif" />
-          </section>
-
-          <section>
-            <h2>Netlify</h2>
-            <p>
-              <a
-                href="https://app.netlify.com/teams/rockykev/sites"
-                target="_blank"
-                >Do it Gatsby!</a
-              >
-              <a
-                href="https://github.com/RockyKev/gatsby2-shopify"
-                target="_blank"
-                >github repo w/out keys</a
-              >
-            </p>
-          </section>
-        </section>
-
-        <!-- AWS Lambda        -->
-        <section>
-          <section>
-            <p>Okay hopefully you managed to set up AWS.</p>
-          </section>
-
-          <section>
-            There's a lot of services for serverless. <br />
-            <a
-              href="https://serverless.css-tricks.com/services/major"
-              target="_blank"
-              >serverless.css-tricks.com</a
-            >
-          </section>
-
-          <section>
-            <p>Lambda (and S3).</p>
-            <p>
-              <a
-                href="https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2"
-                target="_blank"
-                >Lambda (Hello World but DICE!)</a
-              >
-              |
-              <a href="https://aws.amazon.com/lambda/pricing/" target="_blank"
-                >Pricing</a
-              >
-              |
-              <a href="https://pastebin.com/raw/3BECbErL" target="_blank"
-                >Random Dice</a
-              >
-            </p>
-          </section>
-
-          <section>
-            <p>Lambda (and S3).</p>
-            <img src="images/aws-serverless.png" style="background: white;" />
-          </section>
-
-          <section>
-            <p>SERVERLESS.COM's Serverless Components Framework (waaay more complicated)</p>
-            <img src="images/serverless-framework.png" />
-            <a href="https://github.com/serverless-components" target="_blank">repo</a>
-          </section>
-
-          <section id="fragments">
-            <h2>Deploying it in production</h2>
-              <ul>
-                <li class="fragment">You can separate deploys to dev💻 or prod🌎</li>
-                <li class="fragment">Domain names/SLL with Route 53🚸</li>
-                <li class="fragment">Set up distribution with CloudFront</li>
-                <li class="fragment">Set up cache-busting in CloudFront</li>
-              </ul>
-            </section>
-          </section>
-
-
-        </section>
-
+        <section id="text"></section>
 
         <!-- LAST WORDS         -->
         <section>
